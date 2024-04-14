@@ -1,0 +1,19 @@
+{
+  "index": "Introduction",
+  "about": {
+    "title": "About",
+    "type": "page"
+   
+  },
+  "usage":{
+    "title": "How To Use",
+    "theme": {
+      "footer": false
+    }
+  },
+  "contact": {
+    "title": "Home",
+    "type": "page",
+    "href": "/"
+  }
+}
