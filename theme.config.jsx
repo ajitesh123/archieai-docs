@@ -3,5 +3,5 @@ export default {
   project: {
     link: "https://github.com/ajitesh123/archieai-docs",
   },
-  // ... other theme options
+  darkMode: true
 };
