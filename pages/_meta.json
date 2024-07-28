@@ -15,5 +15,9 @@
     "title": "Home",
     "type": "page",
     "href": "/"
+  },
+  "Product/prreview": {
+    "title": "PR Review",
+    "type": "page"
   }
 }
