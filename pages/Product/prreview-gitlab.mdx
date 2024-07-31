@@ -1,0 +1,31 @@
+---
+id: prreview-gitlab
+title: PR Review Installation Guide For Gitlab
+---
+## Archie AI PR Review Installation Guide (For Gitlab)
+
+### Overview
+Archie AI provides an intelligent PR Review feature that integrates seamlessly with GitHub and GitLab repositories. This feature helps streamline the code review process by offering automated reviews, code suggestions, and interactive walkthroughs. Here in this article we explain how to setup your gitlab repository with ArchieAI to utilize the functionality.
+
+### Setup
+Follow these steps to set up Archie AI for your Gitlab repositories:
+
+1. **Install Archie AI Application in your Gitlab Repo:**  - Click on PR Review from the ArchieAI Dashboard. Then click on **Switch to Gitlab** / **Connect with Gitlab** button and which redirects you to the Gitlab oauth application screen where you need to grant the access to ArchieAI Application. Come back again and choose your repository from the list.
+<img width="900" alt="Setup Configuration" src="https://archieai-precanned-prompt.s3.amazonaws.com/Untitled+Video+July+27%2C+2024+9_51+PM+(1).gif" />
+
+2. **Setup Configuration:** - After selecting the repository, copy the *gitlab webhook secret* and store it somewhere. Now choose your settings and click on Add new configuration.
+*Obviously, if you do not have a secret, please contact us.*
+<img width="900" alt="Setup Configuration" src="https://archieai-precanned-prompt.s3.amazonaws.com/Untitled+Video+July+27%2C+2024+9_51+PM+(1).gif" />
+
+4. **Setup Gitlab Webhooks for the Repo:**  - Now we need to set up webhooks for us to receive events. Go to the Gitlab dashboard and navigate to your project page. Click on webhooks from settings inside the left menu.
+<img width="900" alt="Setup Configuration" src="https://archieai-precanned-prompt.s3.amazonaws.com/Untitled+Video+July+27%2C+2024+9_51+PM+(1).gif" />
+
+5. **Register a new webhook:**  - Click on Add new webhook to register the webhook.
+<img width="900" alt="Setup Configuration" src="https://archieai-precanned-prompt.s3.amazonaws.com/Untitled+Video+July+27%2C+2024+9_51+PM+(1).gif" />
+
+6. **Webhook Settings:**  - In the URL Box add the following URL:- **[https://dev-cw-backend-4stsku3jna-nn.a.run.app/git-service/gitlab/webhook](https://dev-cw-backend-4stsku3jna-nn.a.run.app/git-service/gitlab/webhook)**. Inside the Secret Token Box, fill the secret token which you copied in *Step 2*. Now select all the events including Push, Tag Push, Comments, Issues, Merge Requests, Emoji events. Enable SSL verification: Check the box and click save.
+<img width="900" alt="Setup Configuration" src="https://archieai-precanned-prompt.s3.amazonaws.com/Untitled+Video+July+27%2C+2024+9_51+PM+(1).gif" />
+
+7. **Good to Go!:**  - Yayy! You are good to go now. Open a new merge request and see the app in action!
+
+Visit the Archie AI website to update your configuration settings.
