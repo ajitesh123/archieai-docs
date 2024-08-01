@@ -16,12 +16,13 @@
     "type": "page",
     "href": "/"
   },
-  "Product/prreview": {
+  "Product": [{
     "title": "PR Review",
-    "type": "page"
-  },
-  "Product/prreview-gitlab": {
+    "type": "page",
+    "href": "/Product/prreview-github"},
+    {
     "title": "PR Review - Gitlab",
-    "type": "page"
-  },
+    "type": "page",
+    "href": "/Product/prreview-gitlab"
+  }]
 }
