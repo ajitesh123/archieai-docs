@@ -19,5 +19,9 @@
   "Product/prreview": {
     "title": "PR Review",
     "type": "page"
-  }
+  },
+  "Product/prreview-gitlab": {
+    "title": "PR Review - Gitlab",
+    "type": "page"
+  },
 }
