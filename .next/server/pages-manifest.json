@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Product/prreview-gitlab": "pages/Product/prreview-gitlab.js",
-  "/Product/prreview": "pages/Product/prreview.js",
-  "/about": "pages/about.js"
+  "/Product/prreview": "pages/Product/prreview.js"
 }

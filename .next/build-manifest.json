@@ -17,11 +17,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/Product/prreview.js"
     ],
-    "/Product/prreview-gitlab": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Product/prreview-gitlab.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
