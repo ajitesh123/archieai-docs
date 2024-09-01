@@ -9,13 +9,13 @@ export default {
     </span>
   ),
   // Set dark mode as default
-  darkMode: true,
+  // darkMode: true,
   // Optional: Disable the dark mode toggle
   // darkMode: false,
   
   // Optional: Set the default theme (if you want to force dark mode)
   nextThemes: {
-    defaultTheme: 'dark',
+    forcedTheme: 'dark',
   },
 
   // Other configuration options...
