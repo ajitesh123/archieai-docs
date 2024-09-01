@@ -1,0 +1,149 @@
+---
+id: autofix
+title: Autofix
+---
+
+## Archie AI Autofix Feature Documentation
+
+### Overview
+
+Archie AI's Autofix feature automatically fix issues in your codebase. It can significantly reduce the time spent on bug fixing. It does by using agentic workflows to understand the issue, plan the fix and generate the PR with multiple steps and reflections in between.
+
+
+<div style={{position: 'relative', paddingBottom: '54.76673427991886%', height: 0}}>
+  <iframe 
+    src="https://www.loom.com/embed/93a745ac3eed431bb9eff8db001c7a86?sid=d8f92d2a-7341-42f6-a47c-2fdfd87fdf47" 
+    frameBorder="0" 
+    webkitallowfullscreen="true"
+    mozallowfullscreen="true"
+    allowFullScreen 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+  ></iframe>
+</div>
+
+### How It Works
+
+1. **Issue Identification**: Autofix starts by identifying issues in your GitHub repository, either through specific labels or prefixes.
+
+2. **Problem Analysis**: Once an issue is identified, Autofix analyzes the problem, including any provided stack traces or error logs.
+
+3. **Root Cause Determination**: The AI determines the root cause of the issue by examining the code and context.
+
+4. **Solution Planning**: Autofix creates a detailed plan for fixing the issue, including which files to modify or create.
+
+5. **Code Generation**: Based on the plan, Autofix generates the necessary code to fix the issue.
+
+6. **Pull Request Creation**: Finally, a pull request is automatically created with the proposed fix, ready for review.
+
+### Key Benefits
+
+- **Time Efficiency**: Automates the process of fixing common issues, saving developer time.
+- **Consistency**: Applies fixes consistently across your codebase.
+- **Learning Opportunity**: Provides detailed explanations of the fixes, helping developers understand the solutions.
+- **Reduced Backlog**: Helps tackle the backlog of minor issues that often get deprioritized.
+- **24/7 Operation**: Works round the clock to address issues as they're tagged.
+
+### Setup Instructions
+
+1. **Access Archie AI Dashboard**: 
+   - Go to the Archie AI website and click on "Try Now".
+
+2. **Configure GitHub Integration**:
+   - Click on "Configure GitHub".
+   - Select the repositories you want to use with Autofix.
+
+3. **Create Autofix Configuration**:
+   - Specify how Archie AI should identify issues to fix (e.g., by label or prefix).
+
+4. **Save Configuration**:
+   - Click "Save" to apply your Autofix settings.
+
+### Usage Guide
+
+1. **Tag Issues**: In your GitHub repository, assign the specified label to an issue you want Archie AI to fix.
+
+2. **Automatic Processing**: Archie AI will automatically pick up the tagged issue and start the fixing process.        
+
+3. **Monitor Progress**: You can monitor the progress of the fix in the Archie AI dashboard.
+
+4. **Review Pull Request**: Once Autofix completes its work, review the automatically created pull request with the proposed fix.
+
+5. **Merge or Modify**: If the fix looks good, merge the pull request. If adjustments are needed, you can modify the PR before merging.
+
+### Example Workflow
+
+1. A new issue is created in GitHub containing a stack trace from Sentry.
+2. The issue is labeled with the Archie AI tag (e.g., "RGI" or "Autofix").
+3. Autofix picks up the issue and begins its analysis:
+   - It cleans up and interprets the stack trace.
+   - Identifies the root cause of the problem.
+   - Creates a task breakdown and implementation plan.
+4. Autofix generates the necessary code to fix the issue.
+5. A pull request is created, containing:
+   - A summary of the changes made.
+   - The actual code changes.
+   - Next steps or additional considerations.
+
+### Limitations and Considerations
+
+- While powerful, Autofix may not be suitable for all types of issues, particularly those requiring deep context or complex architectural changes.
+- Always review Autofix-generated code before merging to production.
+- Autofix works best when provided with clear, reproducible issues and comprehensive error information.
+
+By leveraging the Autofix feature, development teams can significantly reduce the time spent on routine bug fixes, improve code quality, and focus their efforts on more complex and creative development tasks.
+
+### Share This Page
+
+<div className="social-share">
+  <a href="#" target="_blank" rel="noopener noreferrer" className="twitter-share" aria-label="Share on Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+    </svg>
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer" className="linkedin-share" aria-label="Share on LinkedIn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+    </svg>
+  </a>
+</div>
+
+<style jsx>{`
+  .social-share {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+  }
+  .social-share a {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .social-share a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .twitter-share {
+    background-color: #1DA1F2;
+  }
+  .linkedin-share {
+    background-color: #0077B5;
+  }
+`}</style>
+
+<script dangerouslySetInnerHTML={{__html: `
+  document.addEventListener('DOMContentLoaded', function() {
+    var currentUrl = window.location.href;
+    var twitterShare = document.querySelector('.twitter-share');
+    var linkedinShare = document.querySelector('.linkedin-share');
+    
+    if (twitterShare) {
+      twitterShare.href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(currentUrl) + '&text=' + encodeURIComponent('Check out this Archie AI Autofix feature documentation!');
+    }
+    
+    if (linkedinShare) {
+      linkedinShare.href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(currentUrl) + '&title=' + encodeURIComponent('Archie AI Autofix Documentation') + '&summary=' + encodeURIComponent('Learn about the Archie AI Autofix feature for automated code fixing.');
+    }
+  });
+`}} />

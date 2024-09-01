@@ -24,5 +24,11 @@
     "title": "PR Review - Gitlab",
     "type": "page",
     "href": "/Product/prreview-gitlab"
-  }]
+  },
+  {
+    "title": "Autofix",
+    "type": "page",
+    "href": "/Product/autofix"
+  }
+]
 }
