@@ -3,9 +3,8 @@
   "about": {
     "title": "About",
     "type": "page"
-   
   },
-  "usage":{
+  "usage": {
     "title": "How To Use",
     "theme": {
       "footer": false
@@ -16,24 +15,5 @@
     "type": "page",
     "href": "https://www.getarchieai.com/"
   },
-  "Product": [{
-    "title": "PR Review",
-    "type": "page",
-    "href": "/Product/prreview-github"},
-    {
-    "title": "PR Review - Gitlab",
-    "type": "page",
-    "href": "/Product/prreview-gitlab"
-  },
-  {
-    "title": "Autofix",
-    "type": "page",
-    "href": "/Product/autofix"
-  },
-  {
-    "title": "Engineering Operations Analytics",
-    "type": "page",
-    "href": "/Product/engineering-operations-analytics"
-  }
-]
+  "Product": "Product"
 }
