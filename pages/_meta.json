@@ -29,6 +29,11 @@
     "title": "Autofix",
     "type": "page",
     "href": "/Product/autofix"
+  },
+  {
+    "title": "Engineering Operations Analytics",
+    "type": "page",
+    "href": "/Product/engineering-operations-analytics"
   }
 ]
 }
