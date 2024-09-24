@@ -14,9 +14,5 @@
     "title": "Home",
     "type": "page",
     "href": "https://www.getarchieai.com/"
-  },
-  "Product": {
-    "title": "Product",
-    "type": "page"
   }
 }
