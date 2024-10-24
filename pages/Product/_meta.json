@@ -1,0 +1,27 @@
+{
+  "Product": {
+    "title": "Product Documentation",
+    "items": [
+      {
+        "title": "Autofix",
+        "file": "autofix.mdx"
+      },
+      {
+        "title": "Engineering Operations",
+        "file": "engineering.mdx"
+      },
+      {
+        "title": "PR Review - GitHub",
+        "file": "prreview-github.mdx"
+      },
+      {
+        "title": "PR Review - GitLab",
+        "file": "prreview-gitlab.mdx"
+      },
+      {
+        "title": "Releases",
+        "folder": "Releases"
+      }
+    ]
+  }
+}
