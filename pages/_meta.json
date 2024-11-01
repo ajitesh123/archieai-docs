@@ -10,13 +10,15 @@
       "footer": false
     }
   },
+  "pricing-overview": {
+    "title": "Pricing Overview",
+    "theme": {
+      "footer": false
+    }
+  },
   "contact": {
     "title": "Home",
     "type": "page",
     "href": "https://www.getarchieai.com/"
-  },
-  "pricing-overview": {
-    "title": "Pricing Overview",
-    "type": "page"
   }
 }
